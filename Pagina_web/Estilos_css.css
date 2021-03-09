@@ -1,61 +1,47 @@
 header{
 	position: relative;
 	top: 0px;
-	background-color: #F4F4F4;
-}
-
-main{
-
-
+	background-color: #FF3B4D;
+	/*padding:25px;*/
+	padding-top: 10px;
+	padding-bottom: 0.02px; 
+	font-size: 26px;
 }
 
 footer{
 	background-color: #F4F4F4;
 	position: absolute;
-	bottom: 0px; 
+	bottom: 0px;
+	width: 100%;
+
 }
 
 body{
-	background-image: url("fondo1.jpg");
+	/*background-image: url("Imagenes/fondo1.jpg");*/
+	background-color: #39FFAD;
 	width: 100%;
 	margin:0;
 }
 
 /*--------------------------------------------------------*/
-aside{
-	background-color: #7E7E7E;
-	opacity: 0.5;
-	text-align:center;
-}
-
-ul
-{
-	list-style-type:none;
-	margin:0;
-	padding:0;
-	overflow:hidden;
-
-}
-
-li
-{
-	/*float:left;*/
-}
-
 a
 {
-	display:block;
+	position: inherit;
 	width:100%;
-	font-weight:bold;
+	display: inline;
 	color:#FFFFFF;
 	background-color:#282828;
-	text-align:center;
-	padding:4px;
-	text-decoration:none;
+	padding:20px;
 	text-transform:uppercase;
+	font-family: fantasy;
 }
 a:hover,a:active
 {
 	background-color:#989898;
 }
 
+/*FUENTE*/
+@font-face{
+	font-family: 'valorant.ttf';
+	src: url(valorant.ttf) format("truetype");
+}
