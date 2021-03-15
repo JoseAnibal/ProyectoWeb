@@ -1,47 +1,298 @@
+/*CABECERA*/
 header{
 	position: relative;
-	top: 0px;
-	background-color: #FF3B4D;
-	/*padding:25px;*/
-	padding-top: 10px;
-	padding-bottom: 0.02px; 
-	font-size: 26px;
+	background-color: #111111;
+	padding-top: 90px;
+	width: 100%;
 }
 
+#logo_cabecera{
+	height: 70px;
+	width: 225px;
+	position: absolute;
+	top: 11px;
+}
+
+
+/*PIE DE PAGINA*/
 footer{
-	background-color: #F4F4F4;
+	background-color: #111111;
+	position: relative;
+	width: 100%;
+	padding: 30px;
+}
+
+#footer_registro{
+	background-color: #111111;
+	position: fixed;
+	width: 100%;
+	padding: 30px;
+	bottom: 0px;
+}
+
+#logo_pie{
+	height: 50px;
+	width: 150px;
 	position: absolute;
 	bottom: 0px;
-	width: 100%;
-
+	left: 0px;
+	opacity: 0.5;
 }
 
-body{
-	/*background-image: url("Imagenes/fondo1.jpg");*/
-	background-color: #39FFAD;
-	width: 100%;
-	margin:0;
+#copy{
+	font-family: Impact;
+	position: absolute;
+	left: 35%;
+	top: 15px;
+	color: #FFFFFF;
+	opacity: 0.5;
 }
 
-/*--------------------------------------------------------*/
-a
-{
-	position: inherit;
-	width:100%;
-	display: inline;
-	color:#FFFFFF;
-	background-color:#282828;
-	padding:20px;
-	text-transform:uppercase;
-	font-family: fantasy;
+#info{
+	font-family: Impact;
+	float: right;
+	text-decoration: none;
+	opacity: 0.5;
 }
-a:hover,a:active
-{
-	background-color:#989898;
+
+/*BARRA DE OPCIONES*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+/*Inicio de sesion y Registro*/
+.li_derecha {
+  float: right;
+}
+
+.li_izquierda {
+  float: left;
+}
+
+.a_derecha {
+  display: block;
+  color: #FFFFFF;
+  padding: 14px;
+  text-decoration: none;
+  text-transform:uppercase;
+  font-family: 'valorant.ttf';
+}
+
+.a_izquierda {
+  display: block;
+  color: #FFFFFF;
+  padding: 14px;
+  text-decoration: none;
+  text-transform:uppercase;
+  font-family: 'valorant.ttf';
+}
+
+li a:hover {
+  background-color: #111;
 }
 
 /*FUENTE*/
 @font-face{
 	font-family: 'valorant.ttf';
 	src: url(valorant.ttf) format("truetype");
+}
+
+/*CUERPO*/
+body{
+	/*background-image: url("Imagenes/fondo1.jpg");*/
+	background-color: #191D2A;
+	width: 100%;
+	margin:0;
+}
+
+#imagen_portada{
+	position: relative;
+	width: 100%;
+	height: 600px;
+	display: block;
+}
+
+#portada{
+	position: relative;
+}
+
+#portada_h2{
+	position: absolute;
+	font-family: 'valorant.ttf'
+
+}
+
+#portada_p{
+	position: absolute;
+	font-family: 'valorant.ttf'
+}
+
+.titulo{
+	font-family: Impact;
+	color: #FFFFFF;
+	background-color: #2FC78C;
+	font-size: 20px;
+	width: 100%;
+	position: relative;
+}
+/*INTRODUCCION*/
+
+#introduccion{
+	background-color: #1D1D1D;
+	padding: 14px;
+	top: -5px;
+	position: relative;
+}
+
+#titulo_introduccion{
+	font-family: 'valorant.ttf';
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 23px;
+}
+
+.p_novedades{
+	font-family: Impact;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 21px;
+}
+
+/*SECCION 1*/
+#sec1{
+	background-color: #191D2A;
+	position: relative;
+	top: 0px;
+	padding: 5px;
+	top: -5px;
+}
+
+#d_sec1{
+
+	position: relative;
+}
+
+#p_sec1{
+	text-align: center;
+	position: relative;
+}
+
+
+/*SECCION 2*/
+
+#sec2{
+	background-color: ;
+	position: relative;
+	top: -16px;
+	padding: 5px;
+}
+
+
+/*SECCION 3*/
+
+#sec3{
+	background-color: #191D2A;
+	position: relative;
+	top: -16px;
+	padding: 5px;
+}
+
+
+#grafica{
+	width: 270px;
+	height: 135px;
+	position: relative;
+	left: -15px;
+}
+
+#ryzen5{
+	width: 350px;
+	height: 185px;
+	position: relative;
+	left: -100px;
+}
+
+#pantalla{
+	width: 220px;
+	height: 150px;
+	position: relative;
+	left: -15px;
+}
+
+/*TEXTO DE SECCIONES*/
+.p_seccion{
+	font-family: Impact;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+#portada_pp{
+	position: absolute;
+	color: #FFFFFF;
+}
+
+/*EL LOGIN*/
+
+* {box-sizing: border-box}
+
+.contenedor_formulario {
+  padding: 16px;
+  font-family: "Segoe UI";
+  color: #D8D8D8;
+
+}
+
+/*Tanto para la contraseña como el email*/
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #F1F1F1;
+}
+
+/*Cuando se le da click*/
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #BABABA;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit/register button */
+.botonderegistro {
+  background-color: #43C248;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.botonderegistro:hover {
+  opacity:1;
+}
+
+/*Le pongo los enlaces de color azul y quito las decoraciones*/
+a {
+  color: dodgerblue;
+  text-decoration: none;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.iniciarsesion {
+  background-color: #707070;
+  text-align: center;
+  font-family: Impact; 
+  opacity: 0.4;
 }
