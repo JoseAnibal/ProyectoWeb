@@ -100,6 +100,12 @@ li a:hover {
 }
 
 /*CUERPO*/
+
+main{
+	margin-left: 10%;
+	margin-right: 10%; 
+}
+
 body{
 	background-color: #1D1D1D;
 	width: 100%;
@@ -116,7 +122,7 @@ body{
 
 #portada{
 	background-image: url("Imagenes/ilustracion.png");
-	height:500px; 
+	height:450px; 
 	width:100%;
 	background-size: 100%;
 	padding-top: 25px;
@@ -143,7 +149,6 @@ body{
 
 .titulo{
 	position: relative;
-	margin-top: -12px;
 	font-family: Impact;
 	color: #FFFFFF;
 	background-color: #2FC78C;
@@ -178,10 +183,6 @@ body{
 /*SECCION 1*/
 #sec1{
 	background-color: #1D1D1D;
-	position: relative;
-	top: 0px;
-	padding: 5px;
-	top: -5px;
 }
 
 #d_sec1{
@@ -200,8 +201,6 @@ body{
 #sec2{
 	background-color: #1D1D1D;
 	position: relative;
-	top: -16px;
-	padding: 5px;
 }
 
 
@@ -209,38 +208,65 @@ body{
 
 #sec3{
 	background-color: #1D1D1D;
-	position: relative;
-	top: -16px;
-	padding: 5px;
+
 }
 
 
 #grafica{
 	width: 270px;
 	height: 135px;
-	position: relative;
-	left: -15px;
+	float: left;
+	margin-right: 85px;
+	margin-top: 30px;
 }
 
 #ryzen5{
+	position: relative;
 	width: 350px;
 	height: 185px;
-	position: relative;
 	left: -100px;
+	float: left;
 }
 
 #pantalla{
 	width: 220px;
 	height: 150px;
-	position: relative;
 	left: -15px;
+	float: left;
+	margin-right: 127px;
+	margin-top: 65px;
 }
+
+#placa_base{
+	width: 220px;
+	height: 190px;
+	left: -15px;
+	float: left;
+	margin-right: 127px;
+}
+
+/*BOTON DE LAS SECCIONES*/
+
+.botonver {
+  background-color: #43C248;
+  color: white;
+  padding: 16px 20px;
+  margin: 0px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  width: 30%;
+}
+
 
 /*TEXTO DE SECCIONES*/
 .p_seccion{
 	font-family: Impact;
 	color: #FFFFFF;
-	text-align: center;
+	text-align: justify;
+	margin: 70px;
+
 }
 
 #portada_pp{
