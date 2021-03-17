@@ -14,7 +14,7 @@ header{
 }
 
 /*PIE DE PAGINA*/
-footer{
+#foot{
 	background-color: #111111;
 	width: 100%;
 	padding: 30px;
@@ -191,9 +191,6 @@ body{
 }
 
 /*SECCION 1*/
-#sec1{
-	background-color: #1D1D1D;
-}
 
 #d_sec1{
 
@@ -205,21 +202,6 @@ body{
 	position: relative;
 }
 
-
-/*SECCION 2*/
-
-#sec2{
-	background-color: #1D1D1D;
-	position: relative;
-}
-
-
-/*SECCION 3*/
-
-#sec3{
-	background-color: #1D1D1D;
-
-}
 
 
 #grafica{
@@ -385,6 +367,7 @@ div > a  {
 
 #productos{
 	position: relative;
+	text-align: center;
 }
 
 /*FILA 1*/
