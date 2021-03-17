@@ -6,34 +6,57 @@
 
 	<link rel="stylesheet"  type="text/css" href="../Estilos_css.css"/>
 
-	<link rel="icon" type="image/png" href="../Imagenes/logo.png">
+	<link rel="icon" type="image/png" href="../assets/logo.png">
 
 </head>
 
 <body>
 	<header>
 
-		<img id="logo_cabecera" src="../Imagenes/logo.png" alt="logo">
+		<img id="logo_cabecera" src="../assets/logo.png" alt="logo">
+
 
 	</header>
 
+	<nav>
+		<ul>
+			<li class="li_izquierda"><a class="a_izquierda" href="../Index/Index.html">Pag Principal</a></li>
+			<li class="li_izquierda"><a class="a_izquierda" href="productos.html">Productos</a></li>
+
+			<li class="li_derecha"><a class="a_derecha" href="../Sitios_web/register.html">Registrarse</a></li>
+			<li class="li_derecha"><a class="a_derecha" href="../Sitios_web/login.html">Iniciar Sesion</a></li>
+		<ul>
+	</nav>
+
+
 	<main>
 
-			<nav>
-				<ul>
-					<li class="li_izquierda"><a class="a_izquierda" href="../Index/Index.html">Pag Principal</a></li>
-					<li class="li_izquierda"><a class="a_izquierda" href="productos.html">Productos</a></li>
+			<section id="introduccion">
+				<article>
+					<p id="titulo_introduccion">Productos</p>
 
-					<li class="li_derecha"><a class="a_derecha" href="../Sitios_web/register.html">Registrarse</a></li>
-					<li class="li_derecha"><a class="a_derecha" href="../Sitios_web/login.html">Iniciar Sesion</a></li>
-				<ul>
-			</nav>
+					<div id="d_sec2">
+						<p class="p_novedades">
+							Navega por los distintos produtcos disponibles en nuestra pagina web
+						</p>
+					</div>
 
-		<section id="productos">
+				</article>
+			</section>
+<!-- ------------------------------------------------------------------------------------- -->
+		<section id="productos" align="center">
 			<article class="prod">
 				<div>
-					<img id="ryzen5vender" src="../Imagenes/elementos/ryzen5.png">
+					<img id="ryzen5vender" src="../assets/elementos/ryzen5.png">
 				</div>
+
+				<div class="desc">
+					<p>
+						Nucleos: 6 <br/> 
+					    Hilos: 12 <br/>
+					    Frecuencia:3.7GHz <br/>
+					</p>
+				<div>
 
 				<div>
 					<a class="titulo_prod" href="#"><h2>Ryzen 5 5600X</h2></a>
@@ -43,10 +66,18 @@
 					<p class="info">Procesador AMD</p>
 				</div>
 			</article>
-
+<!-- --------------------------------------------------------------------------------------- -->
 			<article class="prod">
 				<div>
-					<img id="ryzen7vender" src="../Imagenes/elementos/ryzen7.png">
+					<img id="ryzen7vender" src="../assets/elementos/ryzen7.png">
+				</div>
+
+				<div class="desc">
+					<p>
+						Nucleos: 8 <br/> 
+					    Hilos: 16 <br/>
+					    Frecuencia:3.7GHz <br/>
+					</p>
 				</div>
 
 				<div>
@@ -57,10 +88,18 @@
 					<p class="info">Procesador AMD</p>
 				</div>
 			</article>
-
+<!-- ------------------------------------------------------------------------------------- -->
 			<article class="prod">
 				<div>
-					<img id="ryzen9vender" src="../Imagenes/elementos/ryzen9.png">
+					<img id="ryzen9vender" src="../assets/elementos/ryzen9.png">
+				</div>
+
+				<div class="desc">
+					<p>
+						Nucleos: 9 <br/> 
+					    Hilos: 18 <br/>
+					    Frecuencia:3.7GHz <br/>
+					</p>
 				</div>
 
 				<div>
@@ -71,61 +110,71 @@
 					<p class="info">Procesador AMD</p>
 				</div>
 			</article>
+
 			<br/>
+			<!-- ----------------------------------------------------------------------------------- -->
+			<article class="prod">
+				<div>
+					<img id="i9vender" src="../assets/elementos/i9_9900k.png">
+				</div>
+
+				<div class="desc">
+					<p>
+						Nucleos:6 <br/> 
+					    Hilos:12 <br/>
+					    Frecuencia:3.7GHz <br/>
+					</p>
+				</div>
+
+				<div>
+					<a class="titulo_prod" href="#"><h2>i9 9900-K</h2></a>
+				</div>
+
+				<div>
+					<p class="info">Procesador Intel</p>
+				</div>
+			</article>
+
 <!-- ---------------------------------------------------------------------------------------- -->
-			<article class="prod2">
+			<article class="prod">
 				<div>
-					<img id="ryzen9vender" src="../Imagenes/elementos/ryzen9.png">
+					<img id="rtx3090" src="../assets/elementos/rtx3090.png">
+				</div>
+
+				<div class="desc">
+					<p>
+						Nucleos: 6 <br/> 
+					    RAM: 8GB<br/> 
+					</p>
 				</div>
 
 				<div>
-					<a class="titulo_prod" href="#"><h2>Ryzen 9 3700X</h2></a>
+					<a class="titulo_prod" href="#"><h2>RTX 3090</h2></a>
 				</div>
 
 				<div>
-					<p class="info">Procesador AMD</p>
-				</div>
-			</article>
-
-			<article class="prod2">
-				<div>
-					<img id="ryzen9vender" src="../Imagenes/elementos/ryzen9.png">
-				</div>
-
-				<div>
-					<a class="titulo_prod" href="#"><h2>Ryzen 9 3700X</h2></a>
-				</div>
-
-				<div>
-					<p class="info">Procesador AMD</p>
+					<p class="info">Grafica Nvidia</p>
 				</div>
 			</article>
-
-			<article class="prod2">
+<!-- --------------------------------------------------------------------------------------- -->
+			<article class="prod">
 				<div>
-					<img id="ryzen9vender" src="../Imagenes/elementos/ryzen9.png">
+					<img id="rx6800" src="../assets/elementos/rx6800.png">
+				</div>
+
+				<div class="desc">
+					<p>
+						Nucleos: 9 <br/> 
+					    RAM: 8GB<br/>
+					</p>
 				</div>
 
 				<div>
-					<a class="titulo_prod" href="#"><h2>Ryzen 9 3700X</h2></a>
+					<a class="titulo_prod" href="#"><h2>RX 6800</h2></a>
 				</div>
 
 				<div>
-					<p class="info">Procesador AMD</p>
-				</div>
-			</article>
-
-			<article class="prod2">
-				<div>
-					<img id="ryzen9vender" src="../Imagenes/elementos/ryzen9.png">
-				</div>
-
-				<div>
-					<a class="titulo_prod" href="#"><h2>Ryzen 9 3700X</h2></a>
-				</div>
-
-				<div>
-					<p class="info">Procesador AMD</p>
+					<p class="info">Grafica AMD</p>
 				</div>
 			</article>
 
@@ -135,7 +184,7 @@
 
 	<footer id="footer_productos">
 
-		<img id="logo_pie" src="../Imagenes/logo.png" alt="logo">
+		<img id="logo_pie" src="../assets/logo.png" alt="logo">
 
 		<div id="copy">
 			<p>Copyright © ForComputer  2021-2021</p>

@@ -31,10 +31,10 @@ footer{
 
 #footer_productos{
 	background-color: #111111;
-	position: fixed;
 	width: 100%;
 	padding: 30px;
 	bottom: 0px;
+	position: relative;
 }
 
 #logo_pie{
@@ -130,7 +130,7 @@ body{
 }
 
 #portada{
-	background-image: url("Imagenes/ilustracion.png");
+	background-image: url("assets/ilustracion.png");
 	height:450px; 
 	width:100%;
 	background-size: 100%;
@@ -384,16 +384,15 @@ div > a  {
 }
 
 #productos{
- 	display: flex;
+	position: relative;
 }
 
 /*FILA 1*/
 .prod{
 	background-color: #474747;
-	width: 25%;
-	height: 25%;
 	margin: 30px;
 	font-family: "Segoe UI";
+	position: relative;
 }
 
 a > h2{
@@ -405,21 +404,43 @@ a > h2{
 	height: 150px; 
 	width: 250px;
 	position: relative;
-	left: -25px;
+	/*left: -25px;*/
 }
 
 #ryzen7vender{
 	height: 150px; 
 	width: 290px;
 	position: relative;
-	left: -45px;
+	left: 0px;
+
 }
 
 #ryzen9vender{
 	height: 150px; 
 	width: 250px;
 	position: relative;
-	left: -25px;
+	left: -10px;
+}
+
+#i9vender{
+	height: 150px; 
+	width: 190px;
+	position: relative;
+	left: -5px;
+}
+
+#rtx3090{
+	height: 100px; 
+	width: 190px;
+	position: relative;
+	left: -5px;
+}
+
+#rx6800{
+	height: 100px; 
+	width: 190px;
+	position: relative;
+	left: -5px;
 }
 
 .info{
@@ -427,10 +448,8 @@ a > h2{
 	color: #E7E7E7;
 }
 
-.prod{
-	background-color: #474747;
-	width: 25%;
-	height: 25%;
-	margin: 30px;
-	font-family: "Segoe UI";
+/*DESCRIPCION*/
+.desc{
+	color: #EFEFEF;
+	position: relative;
 }
