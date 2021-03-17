@@ -29,6 +29,14 @@ footer{
 	bottom: 0px;
 }
 
+#footer_productos{
+	background-color: #111111;
+	position: fixed;
+	width: 100%;
+	padding: 30px;
+	bottom: 0px;
+}
+
 #logo_pie{
 	height: 50px;
 	width: 150px;
@@ -55,6 +63,7 @@ footer{
 
 /*BARRA DE OPCIONES*/
 ul {
+	/*Le quita el punto a la lista*/
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -152,6 +161,7 @@ body{
 	font-family: Impact;
 	color: #FFFFFF;
 	background-color: #2FC78C;
+	opacity: 0.6;
 	font-size: 20px;
 	width: 100%;
 	padding: 30px;
@@ -217,15 +227,16 @@ body{
 	height: 135px;
 	float: left;
 	margin-right: 85px;
-	margin-top: 30px;
+	margin-top: 70px;
 }
 
 #ryzen5{
 	position: relative;
 	width: 350px;
 	height: 185px;
-	left: -100px;
+	left: -85px;
 	float: left;
+	margin-top: 40px;
 }
 
 #pantalla{
@@ -257,6 +268,7 @@ body{
   width: 100%;
   opacity: 0.9;
   width: 30%;
+  text-shadow: 2px 2px 4px #333333;
 }
 
 
@@ -276,7 +288,9 @@ body{
 
 /*EL LOGIN*/
 
-* {box-sizing: border-box}
+* {
+	box-sizing: border-box;
+}
 
 .contenedor_formulario {
   padding: 16px;
@@ -301,12 +315,8 @@ input[type=text]:focus, input[type=password]:focus {
   outline: none;
 }
 
-/* Overwrite default styles of hr */
-hr {
-  margin-bottom: 25px;
-}
 
-/* Set a style for the submit/register button */
+/* Cambio el boton de registro */
 .botonderegistro {
   background-color: #43C248;
   color: white;
@@ -316,6 +326,7 @@ hr {
   cursor: pointer;
   width: 100%;
   opacity: 0.9;
+  text-shadow: 2px 2px 4px #333333;
 }
 
 .botonderegistro:hover {
@@ -323,8 +334,8 @@ hr {
 }
 
 /*Le pongo los enlaces de color azul y quito las decoraciones*/
-a {
-  color: dodgerblue;
+div > a  {
+  color: #F6F6F6;
   text-decoration: none;
 }
 
@@ -339,4 +350,87 @@ a {
 /*FORMULARIOS*/
 #form{
 	background-color: #2D2D2D;
+}
+/*NOTICIAS*/
+#noticias{
+	font-family: 'valorant.ttf';
+	color: #D1D1D1;
+}
+
+.botonnoticia {
+  background-color: #3BD5AF;
+  color: white;
+  padding: 16px 20px;
+  margin: 0px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  width: 20%;
+  text-shadow: 2px 2px 4px #333333;
+
+}
+.limpiar {
+  background-color: #FF4761;
+  color: white;
+  padding: 16px 20px;
+  margin: 0px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  width: 100%;
+  text-shadow: 2px 2px 4px #333333;
+}
+
+#productos{
+ 	display: flex;
+}
+
+/*FILA 1*/
+.prod{
+	background-color: #474747;
+	width: 25%;
+	height: 25%;
+	margin: 30px;
+	font-family: "Segoe UI";
+}
+
+a > h2{
+	background-color: #2BD127;
+	text-align: center;
+}
+
+#ryzen5vender{
+	height: 150px; 
+	width: 250px;
+	position: relative;
+	left: -25px;
+}
+
+#ryzen7vender{
+	height: 150px; 
+	width: 290px;
+	position: relative;
+	left: -45px;
+}
+
+#ryzen9vender{
+	height: 150px; 
+	width: 250px;
+	position: relative;
+	left: -25px;
+}
+
+.info{
+	text-align: center;
+	color: #E7E7E7;
+}
+
+.prod{
+	background-color: #474747;
+	width: 25%;
+	height: 25%;
+	margin: 30px;
+	font-family: "Segoe UI";
 }
